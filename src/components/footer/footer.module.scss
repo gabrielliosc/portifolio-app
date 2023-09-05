@@ -1,0 +1,23 @@
+//Color Pallete
+$primaryColor: #ffcdbf;
+$secondaryColor: #7c9fbe;
+$thirdColor: #878f99;
+$fontColor: #3b3b3b;
+$fontColor_2: #eeebeb;
+
+.footer {
+    background-color: $secondaryColor;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    p {
+        font-size: 13px;
+        padding: 30px;
+
+        a {
+            text-decoration: none;
+            color: $fontColor;
+        }
+    }
+}

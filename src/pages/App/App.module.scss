@@ -1,0 +1,40 @@
+//Color Pallete
+$primaryColor: #ffcdbf;
+$secondaryColor: #7c9fbe;
+$thirdColor: #878f99;
+$fontColor: #3b3b3b;
+$fontColor_2: #eeebeb;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.App {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: $fontColor;
+    background-color: $primaryColor;
+    .work {
+        margin-bottom: 50px;
+        h1{
+            padding: 20px 50px;
+            margin-bottom: 50px;
+        }
+        .sections{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }        
+    }
+    h1,h2,h3,h4 {
+        font-weight: 400;
+    }
+    p,span,img,li{
+        font-weight: 500;
+    }
+
+}

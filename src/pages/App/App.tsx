@@ -6,17 +6,36 @@ import Footer from '../../components/footer';
 import About from '../../components/about';
 import paintIcon from '../../assets/img/palette-solid.svg';
 import tattooIcon from '../../assets/img/syringe-solid.svg';
-import otherIcon  from '../../assets/img/book-open-solid.svg';
+import otherIcon from '../../assets/img/book-open-solid.svg';
 
+const sections = [{
+  icon: paintIcon,
+  description: 'Acrilica Sob Tela',
+  route: './acrilica'
+},
+{
+  icon: tattooIcon,
+  description: 'Tatuagem',
+  route: './tatuagem'
+},
+{
+  icon: otherIcon,
+  description: 'Outras expressões artisticas',
+  route: './outras'
+}]
 function App() {
   return (
-    <div className="App">
+    <div className={style.App}>
       <Header />
       <About />
-      <p>EU TRABALHO COM...</p>
-      <Section icon={paintIcon} description="Acrilica Sob Tela" route="./acrilica" />
-      <Section icon={tattooIcon} description="Tatuagem" route="./tatuagem"/>
-      <Section icon={otherIcon} description="Outras expressões artisticas" route="./outras"/>
+      <div className={style.work}>
+        <h1>EU TRABALHO COM...</h1>
+        <div className={style.sections}>
+          {sections.map((section, index) => (
+            <Section key={index} icon={section.icon} description={section.description} route={section.route} />
+          ))}
+        </div>
+      </div>
       <Footer />
     </div>
   );

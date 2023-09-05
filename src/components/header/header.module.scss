@@ -1,0 +1,27 @@
+//Color Pallete
+$primaryColor: #ffcdbf;
+$secondaryColor: #719bbf;
+$thirdColor: #878f99;
+$fontColor: #3b3b3b;
+$fontColor_2: #eeebeb;
+
+
+
+.header{
+    background-color: $thirdColor;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    .item1 {
+        flex-grow: 1;
+        font-size: 40px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        padding: 5px 15px;
+    }
+    .item2{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+}

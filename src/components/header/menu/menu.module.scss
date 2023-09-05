@@ -1,0 +1,28 @@
+//Color Pallete
+$primaryColor: #ffcdbf;
+$secondaryColor: #719bbf;
+$thirdColor: #878f99;
+$fontColor: #3b3b3b;
+$fontColor_2: #eeebeb;
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    div {
+        border-bottom: 1px solid $primaryColor;
+        border-right: 1px solid $primaryColor;
+        padding: 10px;
+        margin: 5px 10px;
+    }
+    div:hover {
+        background-color: $secondaryColor;
+    }
+    li {
+        list-style-type: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}

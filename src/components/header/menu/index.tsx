@@ -1,3 +1,5 @@
+import style from './menu.module.scss';
+
 export default function Menu() {
     const pages = [{
         description: 'Home',
@@ -18,11 +20,12 @@ export default function Menu() {
     }]
 
     return (
-        <ul>
+        <ul className={style.nav}>
             {pages.map((page, index) => (
-                <li key={index}> 
-                    <a href={page.route}>{page.description}</a>                    
-                </li>
+                <div>
+                    <li key={index}> </li>                                         
+                    <a href={page.route}>{page.description}</a> 
+                </div>
             ))}
         </ul>
     )
