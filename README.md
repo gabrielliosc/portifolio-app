@@ -44,7 +44,7 @@ Welcome! This is a front-end project for an artist Portifolio. The artist, Naju 
 It was provided a draft for what she wanted for the home page, as seen below:
 From this draft and meetings notes a prototype is being developed to be evaluated.
 
-<p>Bem vindo(a)! Esse é um pojeto de front-end para um portifólio de uma artista. A artista, Naju [Rede social da artista](https://www.instagram.com/jesuisnaju/), é uma artista multifacetaria que aplica sua criatividade em diversas áreas artísticas, como: Pintura, Desenho, Tatuagem e Escrita. Ela solicitou um website onde ela pudesse compartilhar mais sobre ela, seu trabalho e arte experimental em um único lugar, além de compartilhar artes disponíveis para compra.
+<p>Bem vindo(a)! Esse é um pojeto de front-end para um portifólio de uma artista. A artista, Naju [Rede social](https://www.instagram.com/jesuisnaju/), é uma artista multifacetaria que aplica sua criatividade em diversas áreas artísticas, como: Pintura, Desenho, Tatuagem e Escrita. Ela solicitou um website onde ela pudesse compartilhar mais sobre ela, seu trabalho e arte experimental em um único lugar, além de compartilhar artes disponíveis para compra.
 Foi disponibilizado um rascunho do que ela queria para a página inicial, imagem abaixo:
 A partir deste rascunho e anotações de reuniões está sendo desenvolvido um protótipo para avaliação.</p>
 
