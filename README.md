@@ -33,7 +33,6 @@
     </li>
     <li><a href="#usage">Usage | Uso</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License | Licença</a></li>
     <li><a href="#contact">Contact | Contato</a></li>
     <li><a href="#credits">Credits | Créditos</a></li>
   </ol>
