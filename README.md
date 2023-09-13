@@ -45,21 +45,11 @@ Welcome! This is a front-end project for an artist Portifolio. The artist, Naju 
 It was provided a draft for what she wanted for the home page, as seen below:
 From this draft and meetings notes a prototype is being developed to be evaluated.
 
-Bem vindo(a)! Esse é um pojeto de front-end para um portifólio de uma artista. A artista, Naju [Rede social da artista](https://www.instagram.com/jesuisnaju/), é uma artista multifacetaria que aplica sua criatividade em diversas áreas artísticas, como: Pintura, Desenho, Tatuagem e Escrita. Ela solicitou um website onde ela pudesse compartilhar mais sobre ela, seu trabalho e arte experimental em um único lugar, além de compartilhar artes disponíveis para compra.
+<p>Bem vindo(a)! Esse é um pojeto de front-end para um portifólio de uma artista. A artista, Naju [Rede social da artista](https://www.instagram.com/jesuisnaju/), é uma artista multifacetaria que aplica sua criatividade em diversas áreas artísticas, como: Pintura, Desenho, Tatuagem e Escrita. Ela solicitou um website onde ela pudesse compartilhar mais sobre ela, seu trabalho e arte experimental em um único lugar, além de compartilhar artes disponíveis para compra.
 Foi disponibilizado um rascunho do que ela queria para a página inicial, imagem abaixo:
-A partir deste rascunho e anotações de reuniões está sendo desenvolvido um protótipo para avaliação.
+A partir deste rascunho e anotações de reuniões está sendo desenvolvido um protótipo para avaliação.</p>
 
 ![image](https://github.com/gabrielliosc/portifolio-app/assets/33656144/7f50ea45-0d63-4447-8cde-4ba1d05f5526)
-
-
-Points of Improvement
-After structuring this project, some points for improvement can be highlighted as TO DOs in the future:
-
-Increase test coverage (now around 60%).
-
-More specific field validation rules.
-
-In the future, each step of the flow from /shopping, could be built as a standalone micro frontend, in a structure like this: /projects/checkout, /projects/payment, /projects/confirmation. `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +66,7 @@ In the future, each step of the flow from /shopping, could be built as a standal
 
 First, install the dependencies needed to run this project
 
-Primeiro, instale as dependencias necessárias para rodar o projeto
+<p>Primeiro, instale as dependencias necessárias para rodar o projeto</p>
 
 ### Prerequisites | Pré-requisitos
 
@@ -104,7 +94,7 @@ Primeiro, instale as dependencias necessárias para rodar o projeto
    ```
 2. Install NPM packages | Instale os pacotes do NPM
    Project Dependencies (avaiable in file [package.json](https://github.com/gabrielliosc/portifolio-app/blob/master/package.json)
-   Dependencias do projeto (disponíveis no arquivo [package.json](https://github.com/gabrielliosc/portifolio-app/blob/master/package.json))
+   <p> Dependencias do projeto (disponíveis no arquivo [package.json](https://github.com/gabrielliosc/portifolio-app/blob/master/package.json)) </p>
    
     "dependencies":
       "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -158,8 +148,8 @@ Will be listed here the finished protoype demo | Será inserido aqui uma demo do
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Some points for improvement can be highlighted as TO DOs in the future | Alguns pontos para melhoria podem ser listados como TO DOs no futuro
-
+## Some points for improvement can be highlighted as TO DOs in the future 
+<p>##Alguns pontos para melhoria podem ser listados como TO DOs no futuro</p>
 - [ ] Add costum purchase page | Adicionar página de compra costumizada
 - [ ] Section to subscribe to newsletter and sale | Seção para se inscrever para newsletter e promoções
 - [ ] Add a "Shopping" Cart | Adicionar um "carrinho" de compras
@@ -168,7 +158,7 @@ Will be listed here the finished protoype demo | Será inserido aqui uma demo do
 Contributions are **greatly appreciated**! | Contribuições são **sempre bem vindas**!
 
 If you have a suggestion that would make this project better, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement".
-Se você possuir alguma sugestão que possa tornar esse projeto melhor, por favor fork esse repositório e crie um pull request. Você pode também abrir um issue com a tag "enhancement".
+<p>Se você possuir alguma sugestão que possa tornar esse projeto melhor, por favor fork esse repositório e crie um pull request. Você pode também abrir um issue com a tag "enhancement".</p>
 
 1. Fork the Project | Fork o Projeto
 2. Create your Feature Branch | Crie sua  Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -182,14 +172,14 @@ Thanks! Obrigada! 😄
 
 ## Contact | Contato
 
-Gabrielli de Oliveira e Silva da Cruz- [Linkedin](https://twitter.com/your_username) - gabrielli.osc@gmail.com
+Gabrielli de Oliveira e Silva da Cruz- [Linkedin](https://www.linkedin.com/in/gabrielli-oliveira-cruz/) - gabrielli.osc@gmail.com
 Project Link | Link do Projeto: [https://github.com/gabrielliosc/portifolio-app](https://github.com/gabrielliosc/portifolio-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Credits | Créditos
 
-* [Naju's art](instagram.com/itsnaju)
+* [Naju's art](https://www.instagram.com/jesuisnaju/)
 * [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
