@@ -148,7 +148,8 @@ Will be listed here the finished protoype demo | Será inserido aqui uma demo do
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Some points for improvement can be highlighted as TO DOs in the future 
-<p>##Alguns pontos para melhoria podem ser listados como TO DOs no futuro</p>
+<p>Alguns pontos para melhoria podem ser listados como TO DOs no futuro</p>
+
 - [ ] Add costum purchase page | Adicionar página de compra costumizada
 - [ ] Section to subscribe to newsletter and sale | Seção para se inscrever para newsletter e promoções
 - [ ] Add a "Shopping" Cart | Adicionar um "carrinho" de compras
@@ -172,7 +173,7 @@ Thanks! Obrigada! 😄
 ## Contact | Contato
 
 Gabrielli de Oliveira e Silva da Cruz- [Linkedin](https://www.linkedin.com/in/gabrielli-oliveira-cruz/) - gabrielli.osc@gmail.com
-Project Link | Link do Projeto: [https://github.com/gabrielliosc/portifolio-app](https://github.com/gabrielliosc/portifolio-app)
+<p>Project Link | Link do Projeto: [https://github.com/gabrielliosc/portifolio-app](https://github.com/gabrielliosc/portifolio-app)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
