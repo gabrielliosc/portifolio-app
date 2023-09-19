@@ -112,15 +112,15 @@ nav {
         flex-direction: row;
 
         div {
-            border-bottom: 2px solid $darkerSalmon;
-            border-right: 2px solid $darkerSalmon;
+            border-bottom: 2px solid $darkerGreen;
+            border-right: 2px solid $darkerGreen;
             padding: 10px;
             margin: 5px 5px;
 
         }
 
         div:hover {
-            background-color: $darkerSalmon;
+            background-color: $lighterGreen;
         }
 
         li {

@@ -1,6 +1,6 @@
 import Section from '../section';
 import style from './work.module.scss';
-import paintIcon from '../../assets/img/svg/palette-solid.svg';
+import paintIcon from '../../assets/img/png/acrylic.png';
 import tattooIcon from '../../assets/img/svg/syringe-solid.svg';
 import otherIcon from '../../assets/img/svg/book-open-solid.svg';
 

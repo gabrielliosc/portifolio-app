@@ -7,9 +7,11 @@ import Acrylic from './pages/products';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <Acrylic />
+    <Home />
+    {/* <Acrylic /> */}
   </React.StrictMode>
 );
 
