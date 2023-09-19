@@ -1,27 +1,48 @@
-//Color Pallete
-$primaryColor: #ffcdbf;
-$secondaryColor: #719bbf;
-$thirdColor: #878f99;
-$fontColor: #3b3b3b;
-$fontColor_2: #eeebeb;
-
+@import '../../assets/styles/reference.scss';
 
 
 .header{
-    background-color: $thirdColor;
+    background-color: $darkerWhite;
     display: flex;
-    padding: 10px;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+
+    @media (min-width: 992px){
+        background-color: $darkerWhite;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
     .item1 {
         flex-grow: 1;
         font-size: 40px;
-        margin-left: 25px;
-        margin-bottom: 10px;
-        padding: 5px 15px;
+        padding: 5px 15px;  
+
+        img {
+            width: 100px;
+            height: 50px;
+        }     
+
+        @media (min-width:992px){
+            img {
+                width: 150px;
+                height: 75px;
+            } 
+            flex-grow: 1;
+            font-size: 40px;
+            margin-left: 25px;
+            margin-bottom: 10px;
+            padding: 5px 15px;
+        }
     }
     .item2{
         margin-left: 10px;
-        margin-bottom: 10px;
         padding: 5px;
+        
+        @media (min-width:992px){
+            margin-left: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
     }
 }

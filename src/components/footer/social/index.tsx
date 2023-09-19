@@ -1,23 +1,25 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { } from '@fortawesome/free-solid-svg-icons'
 import style from './social.module.scss';
+import instagramIcon from '../../../assets/img/svg/instagram.svg';
+import xTwitterIcon from '../../../assets/img/svg/x-twitter.svg';
+import whatsappIcon from '../../../assets/img/svg/whatsapp.svg';
+import emailIcon from '../../../assets/img/svg/envelope-regular.svg';
 
 const socialMedia = [{
     name: 'Instagram - Pessoal',
-    icon: 'instagram',
-    url: 'http://instagram.com/'
+    icon: instagramIcon,
+    url: 'https://www.instagram.com/jesuisnaju/'
 },{
     name: 'Instagram - Tatuagem',
-    icon: 'instagram',
-    url: 'http://instagram.com/'
-},{
-    name: 'Twitter',
-    icon: 'instagram',
-    url: 'http://x.com/'
+    icon: instagramIcon,
+    url: 'https://www.instagram.com/najunatatu/'
 },{
     name: 'Whatsapp',
-    icon: 'instagram',
+    icon: whatsappIcon,
     url: 'https://api.whatsapp'
+},{
+    name: 'Email',
+    icon: emailIcon,
+    url: 'mailto:jesuisnaju@gmail.com'
 }]
 
 export default function Social() {
@@ -28,8 +30,7 @@ export default function Social() {
             {socialMedia.map((media,index) => (
                 <a href={media.url} target="_blank" className={style.item} key={index}>
                     <li>
-                        ICONE
-                        <span>{media.name}</span>
+                        <img src={media.icon} alt={media.name} />
                     </li>
                 </a>
             ))}

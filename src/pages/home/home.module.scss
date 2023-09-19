@@ -1,0 +1,33 @@
+@import '../../assets/styles/reference.scss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    color: $fontColorBordo;
+
+    @media (min-width:992px) {
+        font-size: 15px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-weight: 500;
+    }
+
+    p,
+    span,
+    img,
+    li {
+        font-weight: 400;
+    }
+
+}

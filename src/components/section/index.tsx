@@ -7,9 +7,9 @@ interface infoSection{
 
 export default function Section({icon,description,route}: infoSection) {
     return (
-        <div className={style.sectionItem}>            
+        <section className={style.sectionItem}>            
             <a href={route}><img src={icon} /></a>
             <p>{description}</p>
-        </div> 
+        </section> 
     )
 }

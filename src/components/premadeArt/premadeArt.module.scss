@@ -1,0 +1,57 @@
+@import '../../assets/styles/reference.scss';
+
+.premadeArtItems {
+    background-color: $lighterSalmon;
+    padding: 10px;
+
+    .wave {
+        height: 20px;
+        width: fit-content;
+        position: relative;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background: linear-gradient(0deg, $lighterPink 0%, $darkerPink 100%);
+        text-align: start;
+        font-size: 20px;        
+        padding: 25px 10px;
+        padding-top: 5px;        
+    }
+
+    .wave::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-repeat: repeat;
+        height: 10px;
+        background-size: 20px 20px;
+        background-image:
+            radial-gradient(circle at 10px -5px, transparent 12px, $lighterSalmon 13px);
+    }
+
+    .wave::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-repeat: repeat;
+        height: 15px;
+        background-size: 40px 20px;
+        background-image:
+            radial-gradient(circle at 10px 15px, $lighterSalmon 12px, transparent 13px);
+    }
+
+    p {
+        color: $fontColorBordo;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            font-size: 17px;
+        }
+    }
+}

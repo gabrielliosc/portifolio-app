@@ -1,18 +1,18 @@
-//Color Pallete
-$primaryColor: #ffcdbf;
-$secondaryColor: #7c9fbe;
-$thirdColor: #878f99;
-$fontColor: #3b3b3b;
-$fontColor_2: #eeebeb;
+@import '../../assets/styles/reference.scss';
 
 
 .sectionItem{
     margin: 30px;
     padding: 10px;
-    p{
+    p{  
+        color: $fontColor;
         margin-top: 20px;
         margin-bottom: 10px;
-        font-size: 17px;
+        font-size: 20px;
         text-align: center;
+
+        @media (min-width: 992px) {
+            font-size: 17px;
+        }
     }
 }

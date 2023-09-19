@@ -1,34 +1,51 @@
-//Color Pallete
-$primaryColor: #ffcdbf;
-$secondaryColor: #7c9fbe;
-$thirdColor: #878f99;
-$fontColor: #3b3b3b;
-$fontColor_2: #eeebeb;
+@import '../../../assets/styles/reference.scss';
 
-.social{
-    font-size: 13px;
-    border-right: 2px solid $primaryColor;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    h4{
-        font-size: 15px;
-        padding: 10px;
+.social {
+    border-right: 2px solid $darkerPink;
+    padding-right: 50px;
+
+    @media (min-width: 992px) {
+
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
-    .links{
+
+    h4 {
+        font-size: 17px;
+        padding: 10px;
+
+        @media (min-width: 992px) {
+            font-size: 15px;
+        }
+    }
+
+    .links {
         display: flex;
         flex-direction: row;
-        .item{
+        width: 100px;
+        padding: 5px;
+
+        .item {
             list-style-type: none;
-            padding: 10px;
+            padding: 5px;
+
+            @media (min-width: 992px) {
+                padding: 10px;
+            }
         }
-        a{
+        a {
             text-decoration: none;
             color: $fontColor;
         }
-    
+        a:hover {
+            background-color: $lighterPink;
+            border: 2px solid $darkerPink;
+            border-radius: 10px;
+        }
+
     }
-    
 }

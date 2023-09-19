@@ -1,53 +1,88 @@
-//Color Pallete
-$primaryColor: #ffcdbf;
-$secondaryColor: #7c9fbe;
-$thirdColor: #878f99;
-$fontColor: #3b3b3b;
-$fontColor_2: #eeebeb;
+@import '../../assets/styles/reference.scss';
 
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: $primaryColor;
+    background-color: $darkerSalmon;
     padding: 10px 50px;
-    margin-top: 50px;
-    margin-bottom: 100px;
 
-    .artist{
+    @media (min-width: 992px) {
         display: flex;
-        flex-direction: row;
-        justify-content:space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-        .collumn{
-            text-align: justify;
-            padding: 10px;
-            width: 50%;
+    .artist {
+        display: flex;
+        flex-direction: column-reverse;
+
+        @media (min-width: 992px) {
+            flex-direction: row;
+            justify-content: space-between;
         }
-        .artistPicture{
-            height: 500px;
-            border: 2px solid $thirdColor;
+
+        .collumn {
+            text-align: justify;
+            padding: 0px;
+            margin: 15px 0px;
+
+            @media (min-width: 992px) {
+                padding: 10px;
+                margin: 0px;
+                width: 50%;
+            }
+        }
+
+        .artistPicture {
+            height: auto;
+            width: auto;
+            margin: 10px 0px;
+            border: 2px solid $darkerGreen;
             border-radius: 20px;
-            box-shadow: 10px 10px 0px 0px $thirdColor;
+            box-shadow: 10px 10px 0px 0px $darkerGreen;
+
+            @media (min-width: 992px) {
+                height: 500px;
+                margin: 0px;
+            }
         }
     }
-    span{
-        h2{
+
+    span {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-size: 20px;
             text-align: center;
             margin-bottom: 10px;
-        } 
-        p{
+        }
+
+        p {
             margin-bottom: 10px;
         }
+
+        a {
+            width: fit-content;
+            align-self: end;
+        }
+
+        @media (min-width: 992px) {
+            display: block;
+        }
+
     }
-    h1{
-        margin: 10px 0px;
-        width: 100%;
+    
+    h2{ 
+        font-size: 25px;
+        padding: 10px 0px;
+
+        @media (min-width: 992px) {
+        padding: 20px 50px;
+        margin-bottom: 50px;
+        }
     }
-    .chat{
+
+    .chat {
         height: 120px;
         width: 200px;
     }
-
-
 }
