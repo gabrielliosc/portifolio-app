@@ -1,4 +1,4 @@
-import style from './commision.module.scss';
+import style from './commissions.module.scss';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Form from '../../components/form';
