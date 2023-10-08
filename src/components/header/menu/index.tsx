@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import style from './menu.module.scss';
+import { Link } from 'react-router-dom';
 
 interface activeHamb {
     show: boolean;
@@ -17,16 +18,16 @@ export default function Menu() {
 
     const pages = [{
         description: 'Home',
-        route: './'
+        route: '/'
     }, {
         description: 'Pronta Entrega',
-        route: './premadeArt'
+        route: '/produtos'
     }, {
         description: 'Encomenda',
-        route: './'
+        route: '/encomendas'
     }, {
         description: 'Outras formas de expressão artística(blog)',
-        route: './others'
+        route: '/others'
     },
     {
         description: 'Contato',
@@ -45,7 +46,7 @@ export default function Menu() {
                 {pages.map((page, index) => (
                     <div>
                         <li key={index}>
-                            <a href={page.route}>{page.description}</a>
+                            <Link to={page.route}>{page.description}</Link>
                         </li>
                     </div>
                 ))}

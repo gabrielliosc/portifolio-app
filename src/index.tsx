@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './pages/home/home';
-import Acrylic from './pages/products';
-import Commission from './pages/commissions';
+import App from './App';
 
 
 const root = ReactDOM.createRoot(
@@ -11,9 +9,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    {/* <Home /> */}
-    <Commission />
-    {/* <Acrylic /> */}
+    <App />
   </React.StrictMode>
 );
 

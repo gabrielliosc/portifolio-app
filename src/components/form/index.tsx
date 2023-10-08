@@ -10,10 +10,32 @@ export default function Form() {
         title: 'Enviado',
         image: checkValid,
         msg: 'Obrigada! Iremos avaliar a encomenda e confirmaremos por email ou wpp'
-    },{
+    }, {
         title: 'Error',
         image: errorIcon,
         msg: 'Inválido! Por favor revise as informações'
+    }]
+
+    const art = [{ 
+        value: 'none', 
+        label: 'Selecione o Tipo' 
+    },{ 
+        value: 'tattoo', 
+        label: 'Tatuagem' 
+    },{ 
+        value: 'paint', 
+        label: 'Pintura' 
+    }]
+
+    const pickup = [{ 
+        value: 'none', 
+        label: 'Selecione o Tipo' 
+    },{ 
+        value: 'flamengo', 
+        label: 'Metrô Flamengo' 
+    },{ 
+        value: 'maracana', 
+        label: 'Metrô Maracanã' 
     }]
 
 
@@ -28,25 +50,17 @@ export default function Form() {
     return (
         <div className={style.commission}>
             <h3>Encomenda</h3>
-            <form>                
-                <Select label="Tipo arte" options={[
-                    {value: 'none', label: 'Selecione o Tipo'},
-                    {value: 'tattoo', label: 'Tatuagem'},
-                    {value: 'paint', label: 'Pintura'}]} id="slcType" />
+            <form>
+                <Select label="Tipo arte" options={art} id="slcType" />
                 <Input label="Nome completo" type="text" id="name" placeholder="Nome completo" />
                 <Input label="Email" type="email" id="email" placeholder="seu-email@provedor.com" />
                 <Input label="Celular" type="tel" id="cell" placeholder="(99) 99999-9999" />
-                <Select label="Tipo de entrega" options={[
-                    {value: 'none', label: 'Selecione'},
-                    {value: 'delivery', label: 'Entrega'},
-                    {value: 'pickup', label: 'Retirada'}]}  id="slcDelivery" />
+                <Select label="Tipo de entrega" options={pickup} id="slcDelivery" />
                 <Input label="Endereço" type="text" id="local" placeholder="Rua exemplo 99 - Bairro" />
                 {/* Colocar busca por cep api do correios */}
-                <Select label="Retirada" options={[
-                    {value: 'none', label: 'Selecione o Tipo'},
-                    {value: 'flamengo', label: 'Metrô Flamengo'},
-                    {value: 'maracana', label: 'Metrô Maracanã'}]}  id="pickup" /> 
+                <Select label="Retirada" options={pickup} id="pickup" />
                 <Input label="Imagem de Referência" type="file" id="ref" placeholder="" />
+                <Input label="Descrição" type="text" id="descricao" placeholder="Descreva aqui a encomenda" />
                 <Input label="Altura" type="number" id="alt" placeholder="cm" />
                 <Input label="Largura" type="number" id="larg" placeholder="cm" />
                 <Input label="Tamanho" type="number" id="size" placeholder="cm" />
