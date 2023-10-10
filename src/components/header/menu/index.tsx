@@ -31,7 +31,7 @@ export default function Menu() {
     },
     {
         description: 'Contato',
-        route: './contact'
+        route: '/contato'
     }]
 
     return (
