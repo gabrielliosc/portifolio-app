@@ -1,4 +1,4 @@
-import style from './section.module.scss';
+import style from './gallery.module.scss';
 
 interface infoGalleryItem{
     picture: string,

@@ -1,8 +1,10 @@
 import style from './home/home.module.scss';
+
 import Header from '../components/header';
-import Footer from '../components/footer';
 import About from '../components/about';
 import Work from '../components/work';
+import Footer from '../components/footer';
+import GalleryTattoo from '../components/galleryTattoo';
 
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
       <Header />
       <About />
       <Work />
+      <GalleryTattoo />
       <Footer />
     </div>
   );
