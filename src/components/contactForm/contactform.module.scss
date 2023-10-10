@@ -1,0 +1,35 @@
+@import '../../assets/styles/reference.scss';
+
+.contact{
+    height: auto;
+    width: auto;
+    border: 2px solid $darkerGray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    align-self: center;
+
+    @media (min-width: 992px) {
+        max-height: 700px;
+    }
+
+    .messageBox{
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    h3{
+        margin-bottom: 10px;
+    }
+    input, select{
+        margin: 10px;
+        width: 80%;
+        background-color: rgb(250, 250, 250);
+        border: 1px solid rgb(219, 219, 219);
+        margin: 10px;
+        outline: none;
+        padding: 9px 0 7px 8px;
+        text-align: left;
+    } 
+}

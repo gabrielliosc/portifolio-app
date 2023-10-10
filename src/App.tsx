@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Commission from "./pages/Comission";
-import Products from "./pages/products/Products";
+import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 
