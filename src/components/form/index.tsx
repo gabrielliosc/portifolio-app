@@ -4,6 +4,7 @@ import errorIcon from '../../assets/img/svg/circle-xmark-solid.svg';
 import style from './form.module.scss';
 import Input from "./input";
 import Select from "./select";
+import Button from "../button";
 
 export default function Form() {
     const messageBox = [{
@@ -66,8 +67,8 @@ export default function Form() {
                 <Input label="Tamanho" type="number" id="size" placeholder="cm" />
                 <Input label="Prazo de entrega:" type="number" id="prazo" placeholder="3 dias confecção + 2 dias para entrega" />
                 <Input label="Agendamento" type="date" id="schedule" placeholder="" />
-                {/* Google calendar/ Apple calendar */}
-                <button type="submit">Criar Encomenda</button>
+                {/* Google calendar/ Apple calendar */}    
+                <Button type="submit" label="Confirmar Encomenda" />
             </form>
             <div className={style.messageBox}>
                 <MessageBox title={messageBox[0].title} image={messageBox[0].image} msg={messageBox[0].msg} />
