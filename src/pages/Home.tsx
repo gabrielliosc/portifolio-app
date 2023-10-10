@@ -5,6 +5,7 @@ import About from '../components/about';
 import Work from '../components/work';
 import Footer from '../components/footer';
 import GalleryTattoo from '../components/galleryTattoo';
+import GalleryAcrylic from '../components/galleryAcrylic';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Work />
       <GalleryTattoo />
+      <GalleryAcrylic />
       <Footer />
     </div>
   );
