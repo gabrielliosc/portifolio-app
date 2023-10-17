@@ -1,7 +1,6 @@
 @import '../../assets/styles/reference.scss';
 
-.tattoo {
-    padding-top: 50px;
+.section {
     background-color: $darkerSalmon;
     padding-left: 10px;
     padding-bottom: 20px;
@@ -14,6 +13,7 @@
         font-size: 30px;
         padding: 10px;
         margin: 10px;
+        margin-top: 0px;
         width: fit-content;
         background:
         linear-gradient(to right, $lighterBordo 5px, transparent 5px) 0 0,
