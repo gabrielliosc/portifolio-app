@@ -1,3 +1,4 @@
+import style from './acrylic.module.scss';
 import GalleryItem from "../gallery";
 
 import gansoPic from '../../assets/img/png/ganso.png';
@@ -23,9 +24,9 @@ export default function GalleryAcrylic() {
     }]
 
     return (
-        <div>
+        <div className={style.acrylic}>
             <h2>Pintura</h2>
-            <div>
+            <div className={style.item}>
                 {paints.map((paint, index) => (
                     <GalleryItem key={index} picture={paint.picture} description={paint.description} alt={paint.alt} />
                 ))}
