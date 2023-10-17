@@ -1,5 +1,6 @@
 import GalleryItem from "../gallery"
 import style from './gallerytattoo.module.scss';
+
 import raminhoPic from '../../assets/img/png/raminho.png';
 import macacoPic from '../../assets/img/png/macaco-louco.png';
 import aboboraPic from '../../assets/img/png/abobora.png';
@@ -23,9 +24,9 @@ export default function GalleryTattoo() {
     }]
 
     return (
-        <div className={style.work}>
+        <div className={style.tattoo}>
             <h2>Tatuagem</h2>
-            <div className={style.sections}>
+            <div className={style.item}>
                 {tattoos.map((tattoo, index) => (
                     <GalleryItem key={index} picture={tattoo.picture} description={tattoo.description} alt={tattoo.alt} />
                 ))}
