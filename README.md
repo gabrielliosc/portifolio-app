@@ -44,7 +44,7 @@ Welcome! This is a front-end project for an artist Portifolio. The artist, Naju 
 It was provided a draft for what she wanted for the home page, as seen below:
 From this draft and meetings notes a prototype is being developed to be evaluated.
 
-<p>Bem vindo(a)! Esse é um pojeto de front-end para um portifólio de uma artista. A artista, Naju [Rede social](https://www.instagram.com/jesuisnaju/), é uma artista multifacetaria que aplica sua criatividade em diversas áreas artísticas, como: Pintura, Desenho, Tatuagem e Escrita. Ela solicitou um website onde ela pudesse compartilhar mais sobre ela, seu trabalho e arte experimental em um único lugar, além de compartilhar artes disponíveis para compra.
+<p>Bem vindo(a)! Esse é um pojeto de front-end para um portifólio de uma artista. A artista, Naju https://www.instagram.com/jesuisnaju/, é uma artista multifacetaria que aplica sua criatividade em diversas áreas artísticas, como: Pintura, Desenho, Tatuagem e Escrita. Ela solicitou um website onde ela pudesse compartilhar mais sobre ela, seu trabalho e arte experimental em um único lugar, além de compartilhar artes disponíveis para compra.
 Foi disponibilizado um rascunho do que ela queria para a página inicial, imagem abaixo:
 A partir deste rascunho e anotações de reuniões está sendo desenvolvido um protótipo para avaliação.</p>
 
@@ -134,11 +134,11 @@ Will be listed here the finished protoype demo | Será inserido aqui uma demo do
 
 - [x] Menu Header
 - [x] Home Page | Página Inicial
-- [ ] Acrilic painting page | Página de pintura acrílica
-- [ ] Tattooing page | Página de Tatuagem
+- [x] Acrylic Tattoo Gallery | Galeria de obras de pintura acrílica e tatuagens
+- [x] Comission page | Encomenda
 - [ ] Experimental Art page | Página de outras formas artísticas
-- [ ] Apply Costum artist's pallete | Aplicação da paleta da artista
-- [ ] Insert artist's icons and logo | Inserção dos ícones e logo da artista
+- [x] Apply Costum artist's pallete | Aplicação da paleta da artista
+- [x] Insert artist's icons and logo | Inserção dos ícones e logo da artista
 - [ ] Insert artist's works | Insert artist's works
 - [ ] Check Acessibility and Usability | Checar Acessibilidade e Usabilidade
 - [ ] Aprove prototype | Aprovar protótipo
@@ -173,7 +173,7 @@ Thanks! Obrigada! 😄
 ## Contact | Contato
 
 Gabrielli de Oliveira e Silva da Cruz- [Linkedin](https://www.linkedin.com/in/gabrielli-oliveira-cruz/) - gabrielli.osc@gmail.com
-<p>Project Link | Link do Projeto: [https://github.com/gabrielliosc/portifolio-app](https://github.com/gabrielliosc/portifolio-app)</p>
+<p>Project Link | Link do Projeto: https://github.com/gabrielliosc/portifolio-app</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
