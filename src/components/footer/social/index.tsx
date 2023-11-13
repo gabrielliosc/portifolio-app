@@ -1,6 +1,5 @@
 import style from './social.module.scss';
 import instagramIcon from '../../../assets/img/svg/instagram.svg';
-import xTwitterIcon from '../../../assets/img/svg/x-twitter.svg';
 import whatsappIcon from '../../../assets/img/svg/whatsapp.svg';
 import emailIcon from '../../../assets/img/svg/envelope-regular.svg';
 
